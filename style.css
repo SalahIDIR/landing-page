@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-logo  {
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.first-section .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    height: 400px;
+    min-width: 0px;
+    flex-shrink: 0;
+}
+
+.first-section .right img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.first-section .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.first-section .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+}
+
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-section .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.second-section .boxes {
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.boxe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 300px;
+}
+
+.boxone {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.boxtwo {
+    text-align: center;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.third-section .quotename {
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    margin: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.fourth-section .left .title {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.fourth-section button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.header,
+.first-section,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
